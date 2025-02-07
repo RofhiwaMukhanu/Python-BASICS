@@ -6,13 +6,19 @@
 #print('Hey' + name + 'Rofhiwa' )
 #print('Your' + age + "18")
 
-x = 2
+#x = 2
 
-if x > 2:
-   print("you've gotten only 23")
+#if x > 2:
 
-elif x == 5:
-    print("goten just 2")
-    
-else:x
-print("such a low score")
+print("you've gotten only 23")
+
+age = 11 
+has_id = True  
+
+can_enter = age >= 18 and has_id
+
+
+if can_enter:
+    print("Access granted. Welcome to the rofh's club")
+else:
+    print("Access denied. You are too young.")
